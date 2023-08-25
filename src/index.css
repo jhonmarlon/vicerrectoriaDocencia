@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/*General styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  color: #323232;
+}
+
+main {
+  margin: 0 auto;
+  min-height: calc(100vh - 64px - 98px);
+}
+
+small {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.778rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1.11rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-size: 1.222rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-size: 1.889rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 2.333rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 80px;
+  height: 3px !important;
+  background: #2C3B80;
+  opacity: 1;
+}
+
+a.disabled {
+  pointer-events: none;
+  color: #ccc;
+}
+
+.bg-azul-itm {
+  background-color: #001D4E;
+}
+
+.bg-azul-itm-claro {
+  background-color: #449DD1;
+}
+
+.azul-itm {
+  color: #001D4E !important;
+}
+
+.bg-Azul-complementario-ITM {
+  background-color: #2C3B80;
+}
+
+.Azul-complementario-ITM {
+  color: #2C3B80;
+}
+
+.bg-Gris-light {
+  background-color: #F1F0F0;
+}
+
+.bg-gris-oscuro {
+  background-color: #323232;
+}
+
+.Gris-light {
+  color: #F1F0F0;
+}
+
+.bg-azul-navbar {
+  background-color: #78C0E0;
+}
+
+/*Inputs*/
+.formInputs {
+  padding: 10px 16px;
+  border-radius: 25px;
+  min-width: 280px;
+  box-shadow: -49px 43px 26px rgb(0 0 0 / 1%), -28px 24px 22px rgb(0 0 0 / 5%), -12px 11px 16px rgb(0 0 0 / 9%), -3px 3px 9px rgb(0 0 0 / 10%), 0px 0px 0px rgb(0 0 0 / 10%);
+}
+
+/*Buttons*/
+.btnPpal {
+  background-color: #2C3B80;
+  border: 1px solid #D9D9D9;
+  color: #D9D9D9;
+  border-radius: 25px;
+  padding: 10px 12px 10px 12px;
+}
+.btnPpal:hover {
+  background-color: #001D4E;
+  color: #ffffff;
+}
+
+.btnSecundario {
+  background-color: #ffffff;
+  border: 1px solid #2C3B80;
+  color: #2C3B80;
+  border-radius: 25px;
+  padding: 10px 12px 10px 12px;
+}
+.btnSecundario:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/*Navbar*/
+.btnBuscarInput {
+  background-repeat: no-repeat;
+  min-width: 153px;
+  max-width: 250px !important;
+  height: 44px;
+  border: 1px solid #2C3B80 !important;
+  border-radius: 25px !important;
+  padding-left: 35px;
+  background-position-y: 50%;
+  background-position-x: 5%;
+}
+
+.btnBuscarIco {
+  border: 1px solid #2C3B80 !important;
+  border-radius: 25px 0px 0px 25px !important;
+  padding: 3px 8px 0px 14px !important;
+}
+
+.navbarMain {
+  background: #001D4E !important;
+}
+
+.navbarHeader {
+  z-index: 11111;
+}
+
+.navbar-light .navbar-toggler-icon {
+  /* background-image: url('../public/img/navbar-icon-mobile.svg'); */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.dropdown-menu {
+  padding: 10px;
+}
+
+/*Footer*/
+.footer {
+  bottom:0;
+  width:100%;
+  background:#001D4E;
+}
+
+/*Sweet alert*/
+.swal-modal .swal-text {
+  text-align: center;
+}
+
+/*Borders*/
+.rounded-top-right {
+  border-radius: 0px 15px 0px 0px;
+}
+
+/*Icons*/
+.icono {
+  height: 25px;
+  width: auto;
+}
+
+/*Carousel*/
+.carousel-indicators [data-bs-target] {
+  background-color: #449DD1;
+  height: 5px;
+  width: 50px;
+  position: relative;
+}
+.carousel-indicators {
+  position: unset;
+}
+
+
+@media (max-width: 575.98px) { 
+ 
+}
+
+@media (max-width: 767.98px) {  
+
+}
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+@media (max-width: 1399.98px) {  }
