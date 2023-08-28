@@ -17,7 +17,7 @@ const Pei = () => {
                       <div className="container-fluid d-block d-md-flex justify-content-between">
                           <ul className="navbar-nav d-flex align-items-center">
                               <li className="nav-item">
-                                  <a className="nav-link text-white" target="_blank" href="docs/Independientes/PEI/Documento PEI  V 1.7.pdf">Documento PEI 2023</a>
+                                  <a className="nav-link text-white" target="_blank" href="docs/Independientes/PEI/Documento PEI  V 1.8.pdf">Documento PEI 2023</a>
                               </li>
                               <li className="nav-item">
                                   <a className="nav-link text-white" href="#queEsPEI">¿Sabes que es PEI?</a>
@@ -100,7 +100,7 @@ const Pei = () => {
                   <div className='bg-azul-itm-claro mt-3 p-2 rounded-top-right btnDocumentos' id="btnDocumentos_6" 
                     onMouseEnter={(event) => handleToggleActiveIcon(event)}
                   >
-                      <a className='text-white fw-bold' target="_blank" href='./docs/Independientes/PEI/Documento PEI  V 1.7.pdf'>Documento PEI 2023</a>
+                      <a className='text-white fw-bold' target="_blank" href='./docs/Independientes/PEI/Documento PEI  V 1.8.pdf'>Documento PEI 2023</a>
                   </div>
               </div>
           </div>
